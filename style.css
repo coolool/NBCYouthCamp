@@ -18,7 +18,7 @@ body {
 
 #gameCanvas {
     width: 100%;
-    height: 450px; /* Ensure canvas takes the full height minus controls */
+    height: calc(100% - 60px); /* Adjusted to make space for the buttons */
     display: block;
 }
 
@@ -26,7 +26,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    height: 50px; /* Set height of controls container */
+    height: 60px; /* Set height of controls container */
 }
 
 #controls button {
