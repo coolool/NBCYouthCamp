@@ -18,7 +18,7 @@ body {
 
 #gameCanvas {
     width: 100%;
-    height: calc(100% - 50px);
+    height: calc(100% - 60px); /* Adjusted to make space for the buttons */
     display: block;
 }
 
@@ -35,6 +35,7 @@ body {
     padding: 15px 0;
     font-size: 20px;
     cursor: pointer;
-    width: 33.33%;
+    width: 33.33%; /* Ensure buttons are evenly sized */
+    height: 60px; /* Added height to make buttons larger */
     box-sizing: border-box;
 }
