@@ -2,7 +2,7 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
 canvas.width = 450;
-canvas.height = 440;
+canvas.height = 450;
 
 const gravity = 0.5;
 const friction = 0.8;
