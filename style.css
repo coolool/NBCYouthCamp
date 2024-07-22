@@ -32,7 +32,7 @@ body {
     background: #444;
     color: #fff;
     border: none;
-    padding: 15px 0;
+    padding: 0; /* Removed padding to avoid overflow */
     font-size: 20px;
     cursor: pointer;
     width: 33.33%; /* Ensure buttons are evenly sized */
